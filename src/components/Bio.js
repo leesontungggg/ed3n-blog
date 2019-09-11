@@ -1,34 +1,32 @@
-import React from 'react'
-import styles from './Bio.module.css'
-import { getGravatarURL } from '../utils/getGravatarURL'
+import React from "react";
+import styles from "./Bio.module.css";
+import { getGravatarURL } from "../utils/getGravatarURL";
 
 function Bio(props) {
   let photoURL = getGravatarURL({
-    email: "test1@example.com",
-    size: 56,
-  })
+    email: "leesontungggg@gmail.com",
+    size: 300
+  });
 
   return (
-    <div className={`
+    <div
+      className={`
       ${styles.Bio}
-      ${props.className || ''}
-    `}>
+      ${props.className || ""}
+    `}
+    >
       <img src={photoURL} alt="Me" />
       <p>
-        Create a blog with a single command, by{' '}
-        <a href="https://twitter.com/james_k_nelson/">James K Nelson</a>.
-        <br />
-        Themed after Gatsby's blog starter and Dan Abramov's{' '}
-        <a href="https://overreacted.io/">overreacted.io</a>.<br />
-        Based on{' '}
-        <a href="https://facebook.github.io/create-react-app/">
-          create-react-app
-        </a>
-        , <a href="https://mdxjs.com/">MDX</a>, and{' '}
-        <a href="https://frontarm.com/navi/">Navi</a>.
+        Personal Blog, by{" "}
+        <a href="https://www.facebook.com/edenisntreal">Eden Lê</a>.
+        <br />I explain everything I learn into writing. <br />
+        CEO of <a href="https://326.engineer">326 Engineering</a>,{" "}
+        <a href="https://326.engineer">The Milkisian</a>.
+        {/* , and{' '}
+        <a href="https://frontarm.com/navi/">Navi</a>. */}
       </p>
     </div>
-  )
+  );
 }
 
-export default Bio
+export default Bio;
