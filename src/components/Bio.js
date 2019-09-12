@@ -20,7 +20,7 @@ function Bio(props) {
         Personal Blog, by{" "}
         <a href="https://www.facebook.com/edenisntreal">Eden Lê</a>.
         <br />I explain everything I learn into writing. <br />
-        CEO of <a href="https://326.engineer">326 Engineering</a>,{" "}
+        Member of <a href="https://326.engineer">326 Engineering</a>,{" "}
         <a href="https://326.engineer">The Milkisian</a>.
         {/* , and{' '}
         <a href="https://frontarm.com/navi/">Navi</a>. */}
