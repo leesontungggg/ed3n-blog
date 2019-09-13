@@ -11,6 +11,9 @@
   height: 256px;
   position: absolute;
 }
+.TESTTING {
+  width: 512px;
+}
 .logo-navi {
   animation: Index-logo-navi-spin infinite 20s linear;
   left: 212px;
