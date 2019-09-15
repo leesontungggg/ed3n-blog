@@ -21,9 +21,9 @@ function Bio(props) {
         <a href="https://www.facebook.com/edenisntreal">Eden Lê</a>.
         <br />I explain everything I learn into writing. <br />
         Member of <a href="https://326.engineer">326 Engineering</a>,{" "}
-        <a href="https://326.engineer">The Milkisian</a>.
-        {/* , and{' '}
-        <a href="https://frontarm.com/navi/">Navi</a>. */}
+        <a href="https://326.engineer">The Milkisian</a> 
+        {' '} and{' '} Owner of {' '}
+        <a href="https://studio225december.com">22.5 December Studio</a>.
       </p>
     </div>
   );
