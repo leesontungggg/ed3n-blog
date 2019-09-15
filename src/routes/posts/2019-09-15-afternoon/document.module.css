@@ -23,15 +23,6 @@
   left: -22px;
 }
 
-img {
-  image-orientation: from-image;
-}
-
-.rotate {
-  transform: rotate(90deg);
-  width: 512px;
-}
-
 @keyframes Index-logo-navi-spin {
   from {
     transform: rotate(0deg);
