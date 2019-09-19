@@ -27,7 +27,8 @@
     "serve": "navi-scripts serve",
     "deploy": "netlify deploy --dir=build",
     "deploy:prod": "netlify deploy --dir=build --prod",
-    "production": "rm -rf build/ && npm run build && npm run deploy:prod"
+    "production": "rm -rf build/ && npm run build && npm run deploy:prod",
+    "pushall": "git add -A && git commit -m 'fast push all' && git push" 
   },
   "eslintConfig": {
     "extends": "react-app"
