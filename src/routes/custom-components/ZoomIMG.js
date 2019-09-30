@@ -1,14 +1,11 @@
 import React from 'react';
 import posed from 'react-pose';
-import { spring } from 'popmotion';
-
 
 const Frame = posed.div({
   init: {
     applyAtEnd: { display: 'none' },
     opacity: 0
   },
-  draggable: true,
   zoom: {
     applyAtStart: { display: 'block' },
     opacity: 1
@@ -19,11 +16,6 @@ const transition = {
   duration: 400,
   ease: [0.08, 0.69, 0.2, 0.99]
 };
-
-const Div = posed.div ({
-    // pressable: true,
-    draggable: true,
-  });
 
 const Image = posed.img({
   init: {
@@ -65,13 +57,13 @@ class ZoomImg extends React.Component {
     const pose = isZoomed ? 'zoom' : 'init';
 
     return (
-      <Div
-        style={{ width: imageWidth, height: imageHeight, marginTop: 50, marginBottom: 50 }}
-        onPressEnd={this.toggleZoom}
+      <div
+        style={{ width: imageWidth, height: imageHeight }}
+        onClick={this.toggleZoom}
       >
         <Frame pose={pose} className="frame" />
         <Image pose={pose} {...props} />
-      </Div>
+      </div>
     );
   }
 }
