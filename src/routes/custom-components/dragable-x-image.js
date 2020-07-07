@@ -33,6 +33,7 @@ class DragableXImage extends React.Component {
         <img
           src={this.props.url}
           style={{width: 450, transform: `${this.props.needRotate ? "rotate(90deg)" : "rotate(0deg)"}`}}
+          alt='Ed3n'
         />
       </Div>
     );
