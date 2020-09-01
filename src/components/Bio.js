@@ -15,7 +15,7 @@ function Bio(props) {
       ${props.className || ""}
     `}
     >
-      <img src={photoURL} alt="Me" />
+      <img src={require('./bio_img/IMG_4971.JPG')} alt="Me" />
       <p>
         Personal Blog, by{" "}
         <a href="https://www.facebook.com/edenisntreal">Eden Lê</a>.
