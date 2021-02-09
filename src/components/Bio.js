@@ -14,7 +14,7 @@ function Bio(props) {
       <p>
         Personal Blog, by{" "}
         <a href="https://www.facebook.com/edenisntreal">Eden Lê</a>.
-        <br /><br />Cũng bình thường<br />
+        <br /><br /> This is a small place where I want to write anything.<br />
       </p>
     </div>
   );
