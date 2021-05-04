@@ -1,8 +1,8 @@
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
 
 :root {
-  --primary-color: #1a52a7;
-  --primary-color-light: rgb(36, 56, 170);
+  --primary-color: rgb(124 206 0);
+  --primary-color-light: rgb(124 206 0);
 }
 
 :global * {
