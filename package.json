@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "blueimp-md5": "^2.3.0",
-    "feed": "^2.0.2",
+    "feed": "^4.2.2",
     "import-all.macro": "^2.0.3",
     "lodash": "^4.17.11",
     "navi": "^0.13.3",
